@@ -1,4 +1,4 @@
-# How to use node-java to include custom Java JAR in Electron app?
+See: [How to use node-java to include custom Java JAR in Electron app?](https://stackoverflow.com/questions/76989630/how-to-use-node-java-to-include-custom-java-jar-in-electron-app) on Stack Overflow.
 
 I want to build an Electron app that bundles a custom JAR (made in a Gradle project in a sub-folder of the project). The Electron app would use [`node-java`](https://github.com/joeferner/node-java) to call our custom API from TypeScript.
 
@@ -12,4 +12,6 @@ Our existing Java application uses floating-point computation and audio I/O, inc
 
 The biggest downside is debugging the complex low-level code, which is a great strength of Java. However, exposing a rich yet simple external API from our Java code can be a win-win for both the TypeScript UI developer consuming and Java audio developer producing and unit testing.
 
-https://stackoverflow.com/questions/76989630/how-to-use-node-java-to-include-custom-java-jar-in-electron-app
+
+
+
